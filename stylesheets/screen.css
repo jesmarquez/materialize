@@ -9583,14 +9583,15 @@ nav {
 }
 
 /* line 84, ../sass/screen.scss */
+h5.start {
+  padding-bottom: 20px;
+}
+
+/* line 88, ../sass/screen.scss */
 h5 {
   font-size: 1.64rem;
   line-height: 110%;
   margin: 0.82rem 0 0.656rem 0;
-}
-/* line 89, ../sass/screen.scss */
-h5 .start {
-  padding-bottom: 20px;
 }
 
 /* line 94, ../sass/screen.scss */
@@ -9615,4 +9616,15 @@ p {
 .start-feature-list {
   margin-bottom: 16px;
   padding-left: 16px;
+}
+
+/* line 114, ../sass/screen.scss */
+.gray {
+  background-color: #ececec;
+}
+
+/* line 118, ../sass/screen.scss */
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
 }

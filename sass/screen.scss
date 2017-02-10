@@ -81,14 +81,14 @@ nav {
 	background-color: #fff !important;
 }
 
+h5.start {
+	padding-bottom: 20px;
+}
+
 h5 {
 	font-size: 1.64rem;
 	line-height: 110%;
 	margin: 0.82rem 0 0.656rem 0;
-
-	.start {
-		padding-bottom: 20px;
-	}
 }
 
 .start-paragraph-text {
@@ -109,4 +109,13 @@ p {
 .start-feature-list {
 	margin-bottom: 16px;
 	padding-left: 16px;
+}
+
+.gray {
+	background-color: rgb(236,236,236);
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
 }
