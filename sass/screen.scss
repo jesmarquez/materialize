@@ -119,3 +119,17 @@ li {
 	display: list-item;
 	text-align: -webkit-match-parent;
 }
+footer.footer-copyright {
+	overflow: hidden;
+	min-height: 50px;
+	display: flex;
+	align-items: center;
+	padding: 10px 10px;
+	color: rgba(255, 255, 255, 0.8);
+	background-color: rgba(51,51,51,0.08);
+}
+
+footer.page-footer {
+	padding-top: 20px;
+	background-color: #689f38;
+}
