@@ -153,3 +153,35 @@ footer.page-footer {
 	box-shadow:
 	0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 }
+
+.input-field {
+	position: relative;
+	margin-top: 1rem;
+}
+
+.row .col.s6 {
+	width: 50%;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+}
+
+.input-field .prefiz {
+	position: absolute;
+	width: 3rem;
+	font-size: 2rem;
+	transition: color .2s;
+}
+
+.mdi {
+	display: inline-block;
+	font: normal normal normal 24px/1 "Material Design Icons";
+	transform: translate(0, 0);
+}
+
+textarea.materialize-textarea {
+	overflow-y: hidden;
+	padding: .8rem 0 1.6rem 0;
+	resize: none;
+	min-height: 3rem;
+}
